@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Pineapple Central</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -17,6 +17,13 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style media="screen">
+    body{
+      font-family: Rammetto One;
+      font-style:italic;
+      text-align: center;
+
+    }
+
     .height1{
       height: 200px;
     }
@@ -60,74 +67,71 @@
 
     <div class="container">
       <div class="row">
+        <div class="col-md-12 height1">
+          <h1>Pineapple Central</h1>
+        </div>
+      </div>
+
+      <div class="row">
         <div class="col-md-3 height1">
-          <img src="img/square1.jpg" class="fitHeightWidth" alt="square">
+          <img src="img/pineapple2.jpg" class="fitHeightWidth" alt="pineapple2">
         </div>
         <div class="col-md-3 height1 relativeParent">
-          <img src="img/square2.jpg" class="absoluteChild" alt="square">
+          <img src="img/pineapple2.jpg" class="absoluteChild" alt="pineapple2">
         </div>
-        <div class="col-md-3 height1 flex">
-          <img src="img/square2.jpg" alt="square">
+        <div class="col-md-3 height1">
+          <img src="img/pineapple2.jpg" class="fitHeightWidth" alt="square">
         </div>
-        <div class="col-md-3 height1 randomColor">
+        <div class="col-md-3 height1 relativeParent">
+          <img src="img/pineapple2.jpg" class="absoluteChild" alt="pineapple2">
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-12 height1 flexSpaceAround">
-          <img src="img/square2.jpg" alt="square">
-          <img src="img/square2.jpg" alt="square">
-          <img src="img/square2.jpg" alt="square">
+          <img src="img/pineapple.jpg" alt="pineapple">
+          <img src="img/pineapple4.png" alt="pineapple">
+          <img src="img/pineapple3.jpg" alt="pineapple">
+          <img src="img/pineapple.jpg" alt="pineapple">
+          <img src="img/pineapple4.png" alt="pineapple">
+          <img src="img/pineapple3.jpg" alt="pineapple">
+          <img src="img/pineapple.jpg" alt="pineapple">
+          <img src="img/pineapple4.png" alt="pineapple">
+          <img src="img/pineapple3.jpg" alt="pineapple">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3 height1 randomColor">
+        <div class="col-md-3 height1 flexSpaceBetween">
+          <img src="img/pineapple4.png" alt="pineapple">
         </div>
-        <div class="col-md-3 height1 randomColor">
+        <div class="col-md-3 height1 flexSpaceBetween">
+          <img src="img/pineapple4.png" alt="pineapple">
         </div>
-        <div class="col-md-3 height1 randomColor">
+        <div class="col-md-3 height1 flexSpaceBetween">
+          <img src="img/pineapple4.png" alt="pineapple">
         </div>
-        <div class="col-md-3 height1 randomColor">
+        <div class="col-md-3 height1 flexSpaceBetween">
+          <img src="img/pineapple4.png" alt="pineapple">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 height1 flexSpaceBetween">
+          <img src="img/pineapple5.jpg" alt="pineapple">
+          <img src="img/pineapple5.jpg" alt="pineapple">
+          <img src="img/pineapple5.jpg" alt="pineapple">
+          <img src="img/pineapple5.jpg" alt="pineapple">
+          <img src="img/pineapple5.jpg" alt="pineapple">
+          <img src="img/pineapple5.jpg" alt="pineapple">
         </div>
       </div>
 
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      // when the document is loaded
-      $(document).ready(function() {
-        //this function gets a random color between 0 and 255
-        function getRandomColor() {
-          return Math.floor(Math.random() * 255);
-        }
 
-        // get all the elements (divs) with the class .randomColor
-        var randomColor = $(".randomColor");
-
-        // Loop through all elements
-        // for each element change the css background-color to RGB + three random colors
-        $.each(randomColor, function(index, item) {
-          $(this).css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
-        })
-
-      })
-      /*
-      fourRows.html
-      - 4 rows
-      - one row must be 12
-      - use postion (min 2 boxes) and flexSpaceAround
-      - in the 12 row at least use flex with muliplt align-itemschoose a theme
-      - transparent background-color of the images (so it blends)
-      - page background could be a slid colour or a pattern
-      - you could put a ttile row about your theme
-
-      link to this one for this week *(class Week 4)
-      */
-    </script>
   </body>
 </html>
