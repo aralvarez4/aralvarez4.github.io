@@ -5,7 +5,7 @@
     "flavour":"Lime,Lemon,orange and Cherry",
     "color":"Green, Yellow, Orange and Red",
     "sugar coated":"true",
-    "texture":"Soft",
+    "texture":"Soft"
   },
   {
     "name":"Sour Cherry Blasters",
@@ -13,7 +13,7 @@
     "flavour":"Cherry",
     "color":"Red",
     "sugar coated":"true",
-    "texture":"Soft",
+    "texture":"Soft"
   },
   {
     "name":"Jolly Rancher",
@@ -21,7 +21,7 @@
     "flavour":"Assorted Flavours",
     "color":"Assorted Colors",
     "sugar coated":"False",
-    "texture":"Hard",
+    "texture":"Hard"
   },
   {
     "name":"Skittles",
@@ -29,7 +29,7 @@
     "flavour":"Assorted Flavours",
     "color":"Assorted Colours",
     "sugar coated":"False",
-    "texture":"Chewy",
+    "texture":"Chewy"
   },
   {
     "name":"Warheads",
@@ -37,5 +37,6 @@
     "flavour":"Assorted Flavours",
     "color":"Assorted Colours",
     "sugar coated":"False",
-    "texture":"Hard",
-  },
+    "texture":"Hard"
+  }
+]
