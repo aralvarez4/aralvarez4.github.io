@@ -4,7 +4,7 @@
     "brand":"Maynards",
     "flavour":"Lime,Lemon,orange and Cherry",
     "color":"Green, Yellow, Orange and Red",
-    "sugar coated":"true",
+    "sugarCoated":"true",
     "texture":"Soft"
   },
   {
@@ -12,7 +12,7 @@
     "brand":"Maynards",
     "flavour":"Cherry",
     "color":"Red",
-    "sugar coated":"true",
+    "sugarCoated":"true",
     "texture":"Soft"
   },
   {
@@ -20,7 +20,7 @@
     "brand":"Hershey",
     "flavour":"Assorted Flavours",
     "color":"Assorted Colors",
-    "sugar coated":"False",
+    "sugarCoated":"False",
     "texture":"Hard"
   },
   {
@@ -28,7 +28,7 @@
     "brand":"Wrigley",
     "flavour":"Assorted Flavours",
     "color":"Assorted Colours",
-    "sugar coated":"False",
+    "sugarCoated":"False",
     "texture":"Chewy"
   },
   {
@@ -36,7 +36,7 @@
     "brand":"Impact Confections",
     "flavour":"Assorted Flavours",
     "color":"Assorted Colours",
-    "sugar coated":"False",
+    "sugarCoated":"False",
     "texture":"Hard"
   }
 ]
