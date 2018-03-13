@@ -16,6 +16,22 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style media="screen">
+      .myHtml{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .font20 {
+        font-size: 20px;
+      }
+      .boldText{
+        font-weight: bold;
+      }
+      .greyBackground{
+        background-color: #efefef;
+      }
+    </style>
   </head>
   <body>
 
@@ -45,18 +61,28 @@
         console.dir(d);
       var html=""; //make a variable to hold the html
       for (var i = 0; i < d.length; i++) {
-        html+="<div>"+d[i].name+"</div>";
+        html+="<div class='myItem'>"; //container for this item
+        html+="<div class='font20 boldText'>"+d[i].name+"</div>";
         html+="<div>"+d[i].yearOfRelease+"</div>";
         html+="<div>"+d[i].genre+"</div>";
         html+="<div>"+d[i].numberOfSongs+"</div>";
         html+="<div>"+d[i].label+"</div>";
         html+="<div>"+d[i].single+"</div>";
-
-
+        html+="<button type='button' class='itemButton btn btn-default'>Click!</button>";
+        html+="</div>";
     }
+
     //write html to the page
       $(document).ready(function(){
         $(".myHtml").html(html);
+        //write an event to handle a click (event-handler functions)
+        //event for all buttons; turn on click, execute function
+        $(".itemButton").on("click", function(){
+          console.log("click");
+          //go up the tree to the closest myItem and toggle the css class
+          $(this).closest(".myItem").toggleClass("greyBackground");
+
+        });
       })
     }
 
