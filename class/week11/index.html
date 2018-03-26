@@ -78,6 +78,7 @@
         for (var jsonObj in d) {
           html += "<div data-id='" + jsonObj + "' class='itemContainer'>";
           for (var key in d[jsonObj]) {
+            console.log("key"+key);
             if (key === "itemId") {
               continue;
             }
@@ -98,7 +99,9 @@
       function getSelectOptions(){
         var options =
           { "Anderson 1":"https://andersonguelphjs.github.io/class/week11/myJSON.json",
-          "Anderson 2":"https://andersonguelphjs.github.io/class/week11/myJSON2.json"}
+          "Anderson 2":"https://andersonguelphjs.github.io/class/week11/myJSON2.json",
+          "Alvarez ":"https://aralvarez4.github.io/class/week11/abiAlvJSON.json"}
+
         ;
         var html="";
 
