@@ -68,7 +68,7 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Include all compiled plugins (console.log("key"+key);below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       var formHtml = "";
@@ -78,11 +78,13 @@
         for (var jsonObj in d) {
           html += "<div data-id='" + jsonObj + "' class='itemContainer'>";
           for (var key in d[jsonObj]) {
-            console.log("key"+key);
+
+            var val = String(d[jsonObj][key]);
+            console.log("key"+key+" val"+val);
             if (key === "itemId") {
               continue;
             }
-            if (d[jsonObj][key].indexOf("github") !== -1) {
+            if (val && val.indexOf("github") != -1) {
               html += "<div class='imageContainer'><img src='https://" + d[jsonObj][key] + "'/></div>";
             } else {
               html += "<div class='" + key + "'>" + d[jsonObj][key] + "</div>";
