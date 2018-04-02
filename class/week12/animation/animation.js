@@ -152,6 +152,33 @@ var spriteImages = [{
     "name": "girl"
   },
   {
+    "spriteMapUrl":"https://biancabottos.github.io/class/week12/animation/images/sun.png",
+    "numFrames": 6,
+    "width": 500,
+    "height": 100,
+    "name": "sun"
+  },
+  {
+  "spriteMapUrl": "https://sluu01.github.io/class/week12/animation/images/iceCream2.png",
+  "numFrames": 5,
+  "width": 2500,
+  "height": 1259,
+  "name": "dessert"
+},
+  {
+    "spriteMapUrl": "images/cameraTurn.png",
+    "numFrames": 11,
+    "width": 5400,
+    "height": 225,
+    "name": "camera"
+  },
+  {    "spriteMapUrl":"https://julianneferr.github.io/class/week12/animation/images/lightbulb.png",
+    "numFrames": 7,
+    "width": 1000,
+    "height": 200,
+    "name": "lightbulb"
+  },
+  {
     "spriteMapUrl": "images/catWalking.png",
     "numFrames": 12,
     "width": 4800,
