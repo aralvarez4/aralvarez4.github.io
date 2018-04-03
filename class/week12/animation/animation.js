@@ -159,12 +159,12 @@ var spriteImages = [{
     "name": "sun"
   },
   {
-  "spriteMapUrl": "https://sluu01.github.io/class/week12/animation/images/iceCream2.png",
-  "numFrames": 5,
-  "width": 2500,
-  "height": 1259,
-  "name": "dessert"
-},
+    "spriteMapUrl": "https://sluu01.github.io/class/week12/animation/images/iceCream2.png",
+    "numFrames": 5,
+    "width": 2500,
+    "height": 1259,
+    "name": "dessert"
+  },
   {
     "spriteMapUrl": "images/cameraTurn.png",
     "numFrames": 11,
